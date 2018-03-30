@@ -9,11 +9,9 @@ import {Recipe} from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A test recipe', 'this is a test',
-      'https://get.pxhere.com/photo/dish-meal-food-produce-vegetable-recipe-eat-lunch-cuisine-pizza' +
-      '-cheese-cook-tomatoes-quiche-olives-kohlrabi-italian-food-au-gratin-gratin-1292471.jpg'),
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
     new Recipe('A test recipe', 'this is a test',
-      'https://get.pxhere.com/photo/dish-meal-food-produce-vegetable-recipe-eat-lunch-cuisine-pizza' +
-      '-cheese-cook-tomatoes-quiche-olives-kohlrabi-italian-food-au-gratin-gratin-1292471.jpg')
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
   ];
 
   constructor() {
